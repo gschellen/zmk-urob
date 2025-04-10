@@ -25,11 +25,12 @@ manifest:
     - name: urob
       url-base: https://github.com/urob
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/ClicketySplit
 
   projects:
     - name: zmk
       remote: zmkfirmware
+      revision: clickety_split_series_zmk_v3.5_power_domains
       import: app/west.yml
 
     # ZMK modules
